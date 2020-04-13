@@ -1,0 +1,66 @@
+fileFormatVersion: 2
+guid: 0a1fd98929942f845b664af502a6323e
+timeCreated: 1532147854
+licenseType: Free
+SubstanceImporter:
+  externalObjects: {}
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: Pavement_04
+    prototypeName: Pavement_04
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 4
+    inputs: []
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 3
+      texEnvs: []
+      floats: []
+      colors: []
+    textureParameters:
+    - name: Pavement_04_Diffuse
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Pavement_04_Normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Pavement_04_Height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp: _MainTex
+      material: {instanceID: 0}
+      baseUID: 632423649
+    - shaderProp: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 632423678
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 632423554
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

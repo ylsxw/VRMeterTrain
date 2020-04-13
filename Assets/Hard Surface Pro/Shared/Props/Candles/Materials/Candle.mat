@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Candle
+  m_Shader: {fileID: 4800000, guid: 57e1f80986d7a5349845e6d806b5e64f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a3c0fa6d49172db4bbb216646e290daa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 05f65a420e96e9247ad0d1398c40447d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 79247e7828b55284e91be17e0a704f78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EdgeAlpha: 0.9321318
+    - _FrezFalloff: 1.8006195
+    - _FrezPow: 0.37848493
+    - _Gloss: 0.47113493
+    - _Metalics: 0
+    - _Reflection: 0.094339624
+    - _Shininess: 0.09506903
+    m_Colors:
+    - _Color: {r: 1, g: 0.15294117, b: 0.25203988, a: 0.49803922}
+    - _SpecColor: {r: 1, g: 0.7449888, b: 0.5490196, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

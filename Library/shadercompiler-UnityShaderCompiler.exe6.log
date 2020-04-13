@@ -1,0 +1,20 @@
+Base path: E:/unity/unityinstall/Editor/Data
+Cmd: initializeCompiler
+Cmd: disassembleShader
+  api=4 insize=2106 outsize=3600 ok=1
+Cmd: disassembleShader
+  api=4 insize=1982 outsize=3444 ok=1
+Cmd: disassembleShader
+  api=4 insize=1550 outsize=2835 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1468 outsize=1726 kw=DIRECTIONAL SHADOWS_SCREEN VERTEXLIGHT_ON _ALPHABLEND_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: disassembleShader
+  api=4 insize=1726 outsize=3116 ok=1
+Cmd: disassembleShader
+  api=4 insize=6742 outsize=9412 ok=1
+Cmd: disassembleShader
+  api=4 insize=6090 outsize=8561 ok=1
+Cmd: disassembleShader
+  api=4 insize=1602 outsize=2933 ok=1
+
+Quitting shader compiler process

@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B4A7BEE-191A-A8B2-3AE0-13F3E8A5487F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2017.4.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_1;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;VRTK_DEFINE_SDK_STEAMVR;VRTK_DEFINE_STEAMVR_PLUGIN_1_2_1_OR_NEWER;VRTK_DEFINE_STEAMVR_PLUGIN_1_2_2_OR_NEWER;VRTK_VERSION_3_2_1;VRTK_VERSION_3_2_1_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_1;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;VRTK_DEFINE_SDK_STEAMVR;VRTK_DEFINE_STEAMVR_PLUGIN_1_2_1_OR_NEWER;VRTK_DEFINE_STEAMVR_PLUGIN_1_2_2_OR_NEWER;VRTK_VERSION_3_2_1;VRTK_VERSION_3_2_1_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Timeline">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomation">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GoogleAudioSpatializer">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>E:/unity/unityinstall/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>E:/unity/unityinstall/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>E:/unity/unityinstall/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>E:/unity/unityinstall/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceUnityLib">
+      <HintPath>Assets/Plugins/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/Plugins/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="VR TRAINING.csproj">
+      <Project>{5DE6543B-FB23-773D-4758-0B15DD6DD0EB}</Project>
+      <Name>VR TRAINING</Name>
+    </ProjectReference>
+    <ProjectReference Include="VR TRAINING.unityproj">
+      <Project>{5DE6543B-FB23-773D-4758-0B15DD6DD0EB}</Project>
+      <Name>VR TRAINING</Name>
+    </ProjectReference>
+    <ProjectReference Include="VR TRAINING.Editor.Plugins.csproj">
+      <Project>{49711AAB-9A96-3A75-06C4-F2A17AAA4C66}</Project>
+      <Name>VR TRAINING.Editor.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Hard Surface Pro\Editor\Reset Fresnel Reflection Value.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_EditorUtilities.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_InteractHapticsEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_ObjectSetup.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_PolicyListEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_RadialMenuEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_SDKManagerEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_SDKSetupEditor.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_SupportInfoWindow.cs" />
+    <Compile Include="Assets\VRTK\Editor\VRTK_UpdatePrompt.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+    <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+    <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+    <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Cut Out Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Cut Out Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Cut Out Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump Internal Faces.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse Internal Faces.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Internal Faces.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular Internal Faces.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Cut Out Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Cut Out Opaque Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Cut Out Opaque Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Cut Out Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Cut Out Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Cut Out Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Cut Out Opaque Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Cut Out Opaque Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Cut Out Opaque Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Cut Out Specular .shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface SFX Depth Write Only.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurface.cginc" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfaceLighting.cginc" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Cut Out Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Cut Out Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Cut Out Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden ScreenSpace Reflection.Shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden ScreenSpace Refraction.Shader" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceReflection.cginc" />
+    <None Include="Assets\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceRefraction.cginc" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ClearExceptSkyboxShader.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\DepthRGBA8RadialBlur.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ExtractSkyboxShader.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Luminance2NormalsBlur.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SkyboxToRGBADepth.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShafts.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\AddStuff.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareBlur.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareStretch.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\addalphahack.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\lensflarecreate.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\CopyDepthToRGBA.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField31.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DofForegroundBlur.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfField.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfFieldZRead.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlurDof.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableRGBADepthBlur.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlur.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof.shader" />
+    <None Include="Assets\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+    <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
+    <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
+    <None Include="Assets\VirtualConsole\Readme.txt" />
+    <None Include="Assets\littlemenu\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\littlemenu\Materials\UI-Default-No-Alpha.shader" />
+    <None Include="Assets\littlemenu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

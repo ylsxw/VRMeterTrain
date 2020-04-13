@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LavaLamp_Wax
+  m_Shader: {fileID: 4800000, guid: 0fcafbb35d3a1374aab1b2286031edf7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: fd8c6d8b1ed37f94880a9017af303213, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 9671bd2b89fefa447becdcba3e7fc049, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 19555d7d9d114c7f1100f5ab44295342, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 976b94d419573ac4f8963bc73c0559bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Spec_Gloss_Reflec_Masks:
+        m_Texture: {fileID: 2800000, guid: c515aa07993b20f4ea242ea75bd638f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bounds: 1
+    - _Density: 0.030731337
+    - _EdgeAlpha: 1
+    - _FrezFalloff: 0.74626863
+    - _FrezPow: 0
+    - _Gloss: 1
+    - _Metalics: 0
+    - _ReflectPower: 0.4
+    - _Reflection: 0
+    - _ReflectionStrength: 0.4
+    - _Shininess: 0.01
+    m_Colors:
+    - _Color: {r: 0.60447764, g: 0.1268135, b: 0, a: 0}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _SpecColor: {r: 1, g: 0.48251748, b: 0, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

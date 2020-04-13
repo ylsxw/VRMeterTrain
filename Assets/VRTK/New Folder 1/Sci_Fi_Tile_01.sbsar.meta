@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: eecc4ec532766f240a5dac7ee57779e5
+timeCreated: 1532147884
+licenseType: Free
+SubstanceImporter:
+  externalObjects: {}
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: Sci_Fi_Tile_01
+    prototypeName: Sci_Fi_Tile_01
+    shaderName: 
+    shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 4
+    inputs: []
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 3
+      texEnvs: []
+      floats: []
+      colors: []
+    textureParameters:
+    - name: Sci_Fi_Tile_01_Diffuse
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Sci_Fi_Tile_01_Specular
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Sci_Fi_Tile_01_Normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Sci_Fi_Tile_01_Height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Sci_Fi_Tile_01_Emissive
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp: _MainTex
+      material: {instanceID: 0}
+      baseUID: 1206005240
+    - shaderProp: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 1206007768
+    - shaderProp: _EmissionMap
+      material: {instanceID: 0}
+      baseUID: 1206008750
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 1206007328
+    - shaderProp: _SpecGlossMap
+      material: {instanceID: 0}
+      baseUID: 1206006048
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
